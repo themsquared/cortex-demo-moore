@@ -7,7 +7,7 @@ info:
   - type: EMAIL
     email: mike.moore@cortex.io
   x-cortex-link:
-    - name: Test Link
+    - name: Test RB Link
       type: runbook
       url: https://cortex.io
       description: Runbook described here 
