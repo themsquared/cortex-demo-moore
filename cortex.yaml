@@ -1,0 +1,31 @@
+openapi: 3.0.1
+info:
+  title: More TestServices
+  description: This is actually a test service.
+  x-cortex-tag: moretestservices
+  x-cortex-owners:
+  - type: EMAIL
+    email: mike.moore@cortex.io
+  x-cortex-link:
+    - name: Test Link
+      type: runbook
+      url: https://cortex.io
+      description: Runbook described here 
+  x-cortex-dashboards:
+    embeds:
+      - type: datadog
+        url: https://app.datadoghq.com/graph/embed?token=ae8be38ce9aa26693fa30f025383c0e8a8e466c0f3f7b14ab43b48842f629d5a&height=300&width=600&legend=false
+  x-cortex-service-groups:
+    - test-service-group
+  x-cortex-custom-metadata:
+    my-key: the value
+    another-key:
+      this: is
+        an: object
+    final-key:
+      - also
+      - use
+      - lists!
+  x-cortex-git:
+    github:
+      repository: themsquared/cortex-demo-moore
